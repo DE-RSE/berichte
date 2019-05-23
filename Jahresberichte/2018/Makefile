@@ -10,4 +10,4 @@ all: $(TEXDEPS:.tex=.pdf)
 
 clean:
 	rm -f *.aux *.log *.out *.bbl *.blg
-	rm -f vorstand.pdf
+	rm -f rechenschaftsbericht.pdf
