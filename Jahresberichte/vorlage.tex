@@ -6,6 +6,14 @@
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 
+\usepackage[ngerman,KeepShorthandsActive]{babel}
+\usepackage{eurosym}
+\DeclareTextCommandDefault{\texteuro}{\euro}
+\DeclareUnicodeCharacter{20AC}{\euro}
+
+\defineshorthand{"`}{„}
+\defineshorthand{"'}{“}
+
 \graphicspath{{../../../materials/Vorlagen/}{images/}}
 \lhead{Rechenschaftsbericht \jahr}
 \rhead{\includegraphics[height=1em]{de-RSE-logo-text-colour}}
