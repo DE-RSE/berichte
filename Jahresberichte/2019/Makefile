@@ -5,7 +5,7 @@ FIGDEPS := $(wildcard images/*)
 
 all: $(TEXDEPS:.tex=.pdf)
 
-%.pdf: %.tex $(FIGDEPS) Makefile
+%.pdf: %.tex $(FIGDEPS) Makefile ../vorlage.tex
 	$(TEX) $< && $(TEX) $<
 
 clean:
