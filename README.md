@@ -4,4 +4,4 @@ Zur Nutzung der Vorlagen muss das [materials]()-Repository im gleichen Ordner wi
 
 ------
 
-Copyright de-RSE e.V. 2020
+Copyright de-RSE e.V. 2022
